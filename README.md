@@ -88,7 +88,7 @@ public/
 
 ## Want full-featured examples?
 
-[Start your 30-day trial](https://dhtmlx.com/docs/products/dhtmlxGantt/download.shtml) to download the complete sample pack (auto-scheduling, resource histogram, Redux integration, etc.).
+[Start your 30-day trial](https://dhtmlx.com/docs/products/dhtmlxGantt-for-React/download.shtml) to download the complete sample pack (auto-scheduling, resource histogram, Redux integration, etc.).
 
 ## License 
 
