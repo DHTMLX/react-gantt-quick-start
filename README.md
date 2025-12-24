@@ -4,6 +4,9 @@
 
 > Starter project showing how to use [DHTMLX React Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt-for-React/) in a React App.
 
+**Related tutorial**:
+[https://docs.dhtmlx.com/gantt/integrations/react/state/xstate/](https://docs.dhtmlx.com/gantt/integrations/react/quick-start/)
+
 ![Demo screenshot](./screenshot.png)
 
 
@@ -15,11 +18,7 @@
 
 ### On the local host 
 
-**Note**, `@dhx/react-gantt` and `@dhx/trial-react-gantt` are hosted on a private Npm registry. You need to configure your npm client and request access to them.
-
-1. [Start a trial](https://dhtmlx.com/docs/products/dhtmlxGantt/download.shtml) to gain access to **@dhx** npm registry and follow the provided instructions for npm configuration.
-
-2. Clone the repo and run 
+Clone the repo and run
 
 ```bash
 git clone https://github.com/dhtmlx/react-gantt-quick-start.git
@@ -32,10 +31,10 @@ yarn start
 
 The component allows simple declarative initialization:
 
-```ts
+```tsx
 import { useRef } from 'react';
-import Gantt, { ReactGanttRef, Task, Link, GanttConfig } from '@dhx/trial-react-gantt';
-import "@dhx/trial-react-gantt/dist/react-gantt.css";
+import Gantt, { ReactGanttRef, Task, Link, GanttConfig } from '@dhtmlx/trial-react-gantt';
+import "@dhtmlx/trial-react-gantt/dist/react-gantt.css";
 
 export interface GanttProps {
   tasks: Task[];
@@ -71,7 +70,7 @@ export default function GanttChart({ tasks, links }: GanttProps) {
 }
 ```
 
-Check the [Online documentation](https://docs.dhtmlx.com/gantt/web__react.html) to find more.
+Check the [Online documentation](https://docs.dhtmlx.com/gantt/integrations/react/) to find more.
 
 ## Project structure
 
@@ -94,7 +93,7 @@ public/
 
 The code in this repository is released under the **MIT** License.
 
-`@dhx/react-gantt` and `@dhx/trial-react-gantt` are commercial libraries - use them under a valid license or evaluation agreement.
+`@dhx/react-gantt` and `@dhtmlx/trial-react-gantt` are commercial libraries - use them under a valid license or evaluation agreement.
 
 ## Useful links
 
@@ -102,4 +101,4 @@ The code in this repository is released under the **MIT** License.
 - [Learn about DHTMLX React Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt-for-React/)
 - [Learn about DHTMLX Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt/)
 - [Technical support](https://forum.dhtmlx.com/c/gantt/react-gantt)
-- [Online documentation](https://docs.dhtmlx.com/gantt/web__react.html)
+- [Online documentation](https://docs.dhtmlx.com/gantt/integrations/react/)

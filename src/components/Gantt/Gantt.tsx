@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import Gantt, { ReactGanttRef, Task, Link, GanttConfig } from '@dhx/trial-react-gantt';
-import "@dhx/trial-react-gantt/dist/react-gantt.css";
+import Gantt, { ReactGanttRef, Task, Link, GanttConfig } from '@dhtmlx/trial-react-gantt';
+import "@dhtmlx/trial-react-gantt/dist/react-gantt.css";
 
 export interface GanttProps {
   tasks: Task[];

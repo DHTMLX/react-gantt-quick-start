@@ -1,4 +1,4 @@
-import type { Task, Link } from '@dhx/trial-react-gantt';
+import type { Task, Link } from '@dhtmlx/trial-react-gantt';
 
 export const tasks: Task[] = [
     { id: 1, text: "Office itinerancy", type: "project", start_date: new Date(2025, 3, 2), duration: 17, progress: 0.4, parent: 0, open: true },
