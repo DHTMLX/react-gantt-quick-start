@@ -5,7 +5,7 @@
 > Starter project showing how to use [DHTMLX React Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt-for-React/) in a React App.
 
 **Related tutorial**:
-[https://docs.dhtmlx.com/gantt/integrations/react/state/xstate/](https://docs.dhtmlx.com/gantt/integrations/react/quick-start/)
+[https://docs.dhtmlx.com/gantt/integrations/react/quick-start/](https://docs.dhtmlx.com/gantt/integrations/react/quick-start/)
 
 ![Demo screenshot](./screenshot.png)
 
